@@ -1,6 +1,6 @@
 {
-  "name": "arc-plugin-template",
-  "version": "0.3.4",
+  "name": "arc-dbstream-plugin",
+  "version": "0.1.0",
   "description": "A template for making architect plugins",
   "main": "index.js",
   "author": "Thomas Ankcorn <thomasankcorn@gmail.com>",
@@ -17,7 +17,8 @@
   "dependencies": {
     "@architect/package": "^6.2.0",
     "@architect/sandbox": "^3.4.1",
-    "@architect/utils": "^2.0.4"
+    "@architect/utils": "^2.0.4",
+    "dynamodb-streams-via-proxy": "^1.0.2"
   },
   "eslintConfig": {
     "extends": "@architect/eslint-config",

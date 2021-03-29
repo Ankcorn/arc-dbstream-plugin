@@ -9,18 +9,18 @@ module.exports = {
         if (!arc.template) {
             return cloudformation;
         }
-       
+
         /** Convert dash-case to PascalCase */
-        toLogicalID()
+        toLogicalID();
 
         /** Create cloudformation for a new lambda function */
 
-        createLambdaJSON()
+        createLambdaJSON();
 
         /**
          * Modify cloudformation here to deploy extra cloud resources
-         * 
-         * 
+         *
+         *
          */
 
         return cloudformation;
@@ -34,6 +34,8 @@ module.exports = {
     sandbox: {
         async start ({ arc, inventory }) {
             /** Start any sandbox processes */
+            console.log(arc.tables);
+
         },
         async end () {
             /** End any sandbox processes */

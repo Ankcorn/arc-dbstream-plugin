@@ -4,9 +4,13 @@ example
 @http
 get /
 
-@template
+@tables
+cats
+  pplID *String
+  catID **String
+	stream true
 
 @plugins
-arc-plugin-template
+arc-dbstream-plugin
 
   
